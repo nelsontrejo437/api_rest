@@ -3,11 +3,10 @@ package org.seguridad.api_rest.utils;
 import java.sql.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.function.Function;
 
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
-
-import com.google.common.base.Function;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
